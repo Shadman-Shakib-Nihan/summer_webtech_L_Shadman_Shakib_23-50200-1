@@ -1,0 +1,87 @@
+/* === Basic CSS === */
+
+/* Element selector */
+header {
+    background-color: #1E90FF; /* Color #1 - Blue */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Class selector */
+  .color2 {
+    color: #FF69B4; /* Color #2 - Pink */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* ID selector */
+  #color3 {
+    color: #32CD32; /* Color #3 - Green */
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  /* Border around unordered list */
+  ul {
+    border: 2px solid #333;
+    margin: 10px 0;
+    padding: 10px;
+    list-style-type: disc;
+  }
+  
+  /* Link box at bottom-right */
+  .link-box {
+    width: 300px;
+    height: 100px;
+    border: 2px dashed gray;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .link-box a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #1E90FF;
+    font-weight: bold;
+  }
+  
+  .fixed1, .fixed2, .fixed3 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+   
+  }
+  
+  .fixed1 {
+    background-color: red;
+    left: 500px;
+    top: 50px;
+    z-index: 1;
+  }
+  
+  .fixed2 {
+    background-color: green;
+    left: 520px;
+    top: 70px;
+    z-index: 2;
+  }
+  
+  .fixed3 {
+    background-color: blue;
+    left: 540px;
+    top: 90px;
+    z-index: 3;
+  }
+  
+  /* Overflow paragraph */
+  .overflow-box {
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  

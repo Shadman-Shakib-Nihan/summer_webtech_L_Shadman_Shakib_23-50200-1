@@ -1,0 +1,66 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #d74611;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f24d16;
+}
+#colorBox{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ee380a;
+}
+
+#bmiResult {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Box to change text color */
+.box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Password strength indicator */
+#passwordStrength {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter and BMI Calculator</title>
+    <link rel="stylesheet" href="L4style.css">
+</head>
+<body>
+    <div>
+        <h2>Counter: <span id="count">0</span></h2>
+        <button id="incrementButton">Increment</button>
+        <button id="decrementButton">Decrement</button>
+    </div>
+
+    <div>
+        <h2>BMI Calculator</h2>
+        <input type="text" id="weight" placeholder="Weight (kg)">
+        <input type="text" id="height" placeholder="Height (ft)">
+        <button id="Calculate">Calculate</button>
+        <p id="bmiResult"></p>
+    </div>
+
+    <div>
+        <h2>Color Changer</h2>
+        <div id="colorBox"></div><br>
+        <input type="color" id="colorPicker">
+        <button id="changeColorButton">Change Color</button>
+
+    </div>
+
+
+    <div>
+        <h2>Password Validation</h2>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required><br><br>
+
+            <span id="passwordStrength"></span><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="lab4.js"></script>
+</body>
+</html>

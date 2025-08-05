@@ -1,0 +1,50 @@
+/* Center the form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    border: 2ex solid ;
+    padding: 20px;
+    border-radius: 200px;
+    width: 300px;
+  }
+  #fullNameLabel {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d1abab;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  button {
+    background-color: #af772d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input, select {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  /*  */
+  

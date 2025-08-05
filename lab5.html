@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="userForm">
+        
+        <label for="fullName" id="fullNameLabel">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required><br>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18" required><br>
+
+      <label for="course">Course Selection:</label>
+      <select id="course" name="course" required>
+        <option value="">Select a course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Graphic Design">Graphic Design</option>
+        <option value="Data Science">Data Science</option>
+      </select><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="lab5.js"></script>
+</body>
+</html>
